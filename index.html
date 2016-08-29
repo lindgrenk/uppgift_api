@@ -7,9 +7,18 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
-	<header>
-		<h1>Flickr images</h1>
+	<header class="section section--header">
+		<h1>Search images on Flickr</h1>
+
+		<form class="">
+			<input id="searchInput" type="text" placeholder="Search">
+			<input id="searchButton" type="button" value="Submit">
+		</form>
 	</header>
+
+	<main class="section section--main">
+		<section id="result" class=""></section>
+	</main>
 
 	<script src="main.js"></script>
 </body>
