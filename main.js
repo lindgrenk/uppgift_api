@@ -1,3 +1,5 @@
+// By Kristian Lindgren
+
 var getApi = "http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?";
 
 //Load all current pictures default
